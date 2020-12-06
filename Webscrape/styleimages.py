@@ -43,3 +43,5 @@ for i in range(0,50):
 	image_scrapper = GoogleImageScraper(webdriver_path,image_path,search_key,num_of_images)
 	image_urls = image_scrapper.find_image_urls()
 	image_scrapper.save_images(image_urls)
+
+#folder having images less than 5 were deleted and lets say there were 5 folders than traversing was done from 50->55 plus
