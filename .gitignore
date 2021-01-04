@@ -131,5 +131,7 @@ dmypy.json
 #Directories
 dataset/
 __pycache__/
+.idea
+.ipynb_checkpoints
 
 debug.txt
